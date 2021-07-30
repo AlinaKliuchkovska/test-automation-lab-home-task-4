@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes" ?>
+<rozetkaFilters>
+    <rozetkaFilter>
+        <group>Ноутбуки</group>
+        <sortingType>От дорогих к дешевым</sortingType>
+        <brandName>Acer</brandName>
+    </rozetkaFilter>
+
+    <rozetkaFilter>
+        <group>Смартфоны</group>
+        <sortingType>От дешевых к дорогим</sortingType>
+        <brandName>Apple</brandName>
+    </rozetkaFilter>
+
+    <rozetkaFilter>
+        <group>Холодильники</group>
+        <sortingType>Популярные</sortingType>
+        <brandName>ATLANT</brandName>
+    </rozetkaFilter>
+
+    <rozetkaFilter>
+        <group>Телевизоры</group>
+        <sortingType>Новинки</sortingType>
+        <brandName>Samsung</brandName>
+    </rozetkaFilter>
+
+    <rozetkaFilter>
+        <group>Планшеты</group>
+        <sortingType>Акционные</sortingType>
+        <brandName>Microsoft</brandName>
+    </rozetkaFilter>
+</rozetkaFilters>
