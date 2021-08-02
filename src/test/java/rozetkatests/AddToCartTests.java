@@ -24,7 +24,7 @@ public class AddToCartTests extends BaseTest {
     }
 
     @Test(dataProvider = "filter", threadPoolSize = 3)
-    public void checkThatAddingToCartWorksCorrect(RozetkaFilter rozetkaFilter) throws InterruptedException {
+    public void checkThatAddingToCartWorksCorrect(RozetkaFilter rozetkaFilter){
         getHomePage().enterKeyWordToSearchInput(rozetkaFilter.getGroup());
         getProductGroupPage().enterBrandToBrandSearchInput(rozetkaFilter.getBrandName())
                 .checkBrandCheckbox(rozetkaFilter.getBrandName()).checkReadyToShipCheckbox()

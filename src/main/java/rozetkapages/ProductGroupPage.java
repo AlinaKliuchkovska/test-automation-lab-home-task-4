@@ -58,8 +58,7 @@ public class ProductGroupPage extends BasePage {
         return this;
     }
 
-    public ProductGroupPage checkBrandCheckbox(String brandName) throws InterruptedException {
-        Thread.sleep(1000);
+    public ProductGroupPage checkBrandCheckbox(String brandName){
         waitForElementToBeClickable(driver.findElement(By.xpath(String.format("//input[@id='%s']//parent::a", brandName))));
         driver.findElement(By.xpath(String.format("//input[@id='%s']//parent::a", brandName))).click();
         return this;
